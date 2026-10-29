@@ -4,68 +4,114 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="builder" content="Stronglify">
-<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1791561058.png">
-<title>Cómo diseñar mejores experiencias digitales · Crimson</title>
-<meta name="description" content="Una buena experiencia digital comienza entendiendo a las personas que usan el producto, no las pantallas que queremos construir.">
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1793291794.png">
+<title>Cómo documentar un experimento para que otro pueda continuarlo · Crimson</title>
+<meta name="description" content="Un experimento bien documentado se puede repetir, corregir y continuar sin depender de quien lo hizo.">
 <meta name="robots" content="index">
 <link rel="canonical" href="https://stronglifythemes.github.io/crimson/"><style>
 html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
 fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}img{max-width:100%;height:auto}
 </style><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
 <script src="https://media.stronglify.com/tailwind-play-3.4.17.js"></script>
-<script>tailwind.config={"theme":{"extend":{"colors":{"page":"#02182B","ink":"#FCECEF","accent":"#D7263D","accentInk":"#02182B","muted":"#C5CAD1","surface":"#122D40","tint":"#FFE5E7","deep":"#02182B"},"fontFamily":{"sans":["IBM Plex Sans","Arial","sans-serif"],"display":["IBM Plex Sans","Arial","sans-serif"]}}}};</script>
-<style>:focus-visible{outline:2px solid currentColor;outline-offset:5px}::selection{background:#FCECEF;color:#02182B}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}body{background-image:radial-gradient(ellipse at 86% 14%,rgba(215,38,61,0.18),transparent 44%),linear-gradient(rgba(2,24,43,0.88),rgba(2,24,43,0.92)),var(--site-image);background-size:auto,auto,cover;background-attachment:scroll,scroll,fixed}.glass{position:relative;backdrop-filter:blur(22px) saturate(145%);-webkit-backdrop-filter:blur(22px) saturate(145%);box-shadow:0 22px 64px rgba(2,24,43,0.3),inset 0 0 36px rgba(255,255,255,.075)}.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(135deg,rgba(255,255,255,.19),rgba(255,255,255,.025) 42%,transparent 66%)}.glass>*{position:relative}.glass.glass-accent{background-color:rgba(215,38,61,0.8)}.glass.glass-surface{background-color:rgba(18,45,64,0.67)}.glass.glass-tint{background-color:rgba(255,229,231,0.85)}.glass.glass-deep{background-color:rgba(2,24,43,0.86)}.glass.glass-ink{background-color:rgba(252,236,239,0.9)}.glass.glass-page{background-color:rgba(2,24,43,0.88)}.glass img[src^="https://placehold.co/"]{opacity:.58}.glass-button{box-shadow:0 8px 28px rgba(2,24,43,0.2),inset 0 0 18px rgba(255,255,255,.14);background-image:linear-gradient(140deg,rgba(255,255,255,.18),transparent 65%);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}.hero-visual{position:relative;isolation:isolate;overflow:hidden;min-height:540px;background-color:#02182B;background-image:var(--site-image);background-size:cover;background-position:50% 50%;color:#FCECEF;box-shadow:0 24px 80px rgba(2,24,43,0.27),inset 0 0 60px rgba(255,255,255,.06)}.hero-visual::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(2,24,43,0.38),rgba(2,24,43,0.28) 62%,rgba(2,24,43,0.18))}.hero-visual>div,.hero-visual>h1,.hero-visual>p{position:relative;z-index:1}.hero-visual h1{color:#FCECEF;text-shadow:0 8px 35px rgba(2,24,43,0.22)}.hero-visual p{color:#FCECEF}@media(max-width:767px){body{background-attachment:scroll}.glass{backdrop-filter:blur(16px) saturate(135%);-webkit-backdrop-filter:blur(16px) saturate(135%)}.hero-visual{min-height:500px;background-position:58% 50%}.hero-visual::before{background:rgba(2,24,43,0.5)}}.theme-crimson .glass-accent,.theme-crimson .glass-accent .text-accentInk{color:#FCECEF}html{scroll-behavior:smooth}img{max-width:100%;height:auto}[hidden]{display:none!important}</style></head>
-<body class="bg-page font-sans text-ink antialiased theme-crimson">
-  
-<div style="display:none" aria-hidden="true" class="aspect-video font-display font-medium glass glass-surface leading-6 leading-8 list-none max-w-[65ch] mb-5 mb-6 mb-7 mt-10 mt-14 my-10 my-7 object-cover p-8 rounded-3xl space-y-3 text-2xl text-3xl text-base text-sm tracking-tight underline underline-offset-4 w-full"></div>
-
-<style>:root{--site-image:url('https://media.stronglify.com/295/hero-1791561059.jpg')}</style>
-<header class="mx-auto w-full max-w-[1600px] px-6 md:px-10 lg:px-16 relative flex items-center justify-between gap-6 py-7 font-sans">
-  <a href="/" class="text-[23px] font-semibold tracking-[-.04em]">Marca</a>
-  <nav aria-label="Navegación principal" class="hidden items-center gap-8 text-sm md:flex">
-
-<a href="/" class="transition-opacity duration-200 hover:opacity-75">Inicio</a>
-
-<a href="/page" class="transition-opacity duration-200 hover:opacity-75">Nosotros</a>
-
-<a href="/#servicios" class="transition-opacity duration-200 hover:opacity-75">Servicios</a>
-
-<a href="/#contacto" class="transition-opacity duration-200 hover:opacity-75">Contacto</a>
-
-</nav>
-  <button type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" class="min-h-11 px-2 text-sm md:hidden">Menú</button>
-  <nav id="mobile-nav" aria-label="Navegación móvil" hidden class="absolute left-6 right-6 top-[85px] z-20 rounded-2xl bg-ink p-6 text-page md:hidden">
-
-<a href="/" class="block py-3 text-xl">Inicio</a>
-
-<a href="/page" class="block py-3 text-xl">Nosotros</a>
-
-<a href="/#servicios" class="block py-3 text-xl">Servicios</a>
-
-<a href="/#contacto" class="block py-3 text-xl">Contacto</a>
-
-</nav>
+<script>tailwind.config={theme:{extend:{colors:{navy:"#02182B",surface:"#122D40",accent:"#D7263D",tint:"#FFE5E7",mist:"#C5CAD1",light:"#FCECEF",slate:"#4F5B67"},fontFamily:{sans:["IBM Plex Sans","Arial","sans-serif"]}}}};</script>
+<style>html{scroll-behavior:smooth}:focus-visible{outline:2px solid #D7263D;outline-offset:3px}::selection{background:#FFE5E7;color:#02182B}img{max-width:100%;height:auto}[hidden]{display:none!important}.texto{font-size:1.0625rem;line-height:1.75;color:#122D40}.texto p,.texto ul,.texto ol{margin-top:1.25em}.texto h2{margin-top:2.25em;color:#02182B;font-size:1.625rem;line-height:1.2;font-weight:600;letter-spacing:-.015em}.texto h3{margin-top:1.75em;color:#02182B;font-size:1.25rem;line-height:1.3;font-weight:600}.texto h2+p,.texto h3+p{margin-top:.75em}.texto ul,.texto ol{padding-left:1.25em;list-style:disc}.texto li{margin-top:.4em;padding-left:.25em}.texto li::marker{color:#D7263D}.texto strong{font-weight:600;color:#02182B}.texto em{font-style:italic}.texto a{color:#D7263D;text-decoration:underline;text-underline-offset:4px}.texto a:hover{color:#02182B}.texto blockquote{margin-top:2em;background:#FFE5E7;padding:1.25em 1.5em;color:#02182B;font-size:1.375rem;line-height:1.45;font-weight:500}.texto figure{margin-top:2em}.texto img{width:100%}.texto figcaption{margin-top:.75em;color:#4F5B67;font-size:.9375rem;line-height:1.5;font-style:italic}.texto :first-child{margin-top:0}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}</style></head>
+<body class="bg-navy font-sans text-light antialiased">
+  <header id="inicio" class="relative bg-navy text-light">
+  <div class="mx-auto flex h-20 max-w-[1200px] items-center justify-between gap-6 px-5 md:px-8">
+    <div class="flex items-center gap-5">
+      <a href="./" class="shrink-0"><img src="https://placehold.co/160x40" alt="Crimson" width="160" height="40" class="h-10 w-auto"></a>
+      <p class="hidden text-sm text-mist lg:block">Laboratorio de investigación aplicada</p>
+    </div>
+    <nav aria-label="Navegación principal" class="hidden items-center md:flex">
+      
+      <a href="./" class="px-4 py-2 text-[15px] font-medium decoration-accent decoration-2 underline-offset-8 transition duration-200 hover:underline">Inicio</a>
+      
+      <a href="./page" class="px-4 py-2 text-[15px] font-medium decoration-accent decoration-2 underline-offset-8 transition duration-200 hover:underline">Nosotros</a>
+      
+      <a href="./blog" class="px-4 py-2 text-[15px] font-medium decoration-accent decoration-2 underline-offset-8 transition duration-200 hover:underline">Blog</a>
+      
+    </nav>
+    <button type="button" data-menu-toggle aria-expanded="false" aria-controls="menu-movil" class="min-h-11 border border-light/30 px-4 text-sm font-medium transition duration-200 aria-expanded:border-accent aria-expanded:bg-accent aria-expanded:text-white md:hidden">Menú</button>
+  </div>
+  <nav id="menu-movil" aria-label="Navegación móvil" hidden class="absolute inset-x-0 top-full z-20 bg-navy px-5 pb-4 md:hidden">
+    
+    <a href="./" class="block py-3 text-lg font-medium">Inicio</a>
+    
+    <a href="./page" class="block py-3 text-lg font-medium">Nosotros</a>
+    
+    <a href="./blog" class="block py-3 text-lg font-medium">Blog</a>
+    
+  </nav>
 </header>
-<main>
-<article class="mx-auto w-full max-w-[1600px] px-6 md:px-10 lg:px-16 py-16 md:py-24">
-  <header>
-    <a href="blog.html" class="underline underline-offset-4">Diseño</a>
-    <h1 class="font-display text-balance text-[clamp(2.25rem,4.5vw,4rem)] font-medium leading-[1.08] tracking-[-.035em] max-w-[22ch] mb-8">Cómo diseñar mejores experiencias digitales</h1>
-    <p class="max-w-[65ch] text-base leading-8 mb-7">Una buena experiencia digital comienza entendiendo a las personas que usan el producto, no las pantallas que queremos construir.</p>
-  </header>
 
-  <img src="https://media.stronglify.com/295/laboratorios-prototipo-1791566766.png" alt="Portátil con código abierto sobre un escritorio de trabajo" width="1600" height="900" class="my-10 aspect-video w-full object-cover" loading="lazy">
+<main class="md:px-8 md:py-12">
+  <div class="mx-auto max-w-[1200px] bg-white px-5 py-12 text-navy shadow-[0_30px_90px_rgba(0,6,14,0.45)] md:px-12 md:py-16 lg:px-20 lg:py-20">
+    <article class="grid gap-x-12 lg:grid-cols-12">
+      <header class="lg:col-span-12">
+        <a href="./blog" class="text-[15px] font-semibold text-accent underline-offset-4 transition duration-200 hover:underline">Métodos</a>
+        <h1 class="mt-5 max-w-[22ch] text-balance text-[clamp(2.25rem,5.5vw,4.25rem)] font-semibold leading-[1.05] tracking-[-0.03em]">Cómo documentar un experimento para que otro pueda continuarlo</h1>
+        <p class="mt-6 max-w-[60ch] text-[clamp(1.125rem,1.6vw,1.375rem)] leading-[1.55] text-surface">Un experimento bien documentado se puede repetir, corregir y continuar sin depender de quien lo hizo.</p>
+      </header>
 
-  <div class="mx-auto max-w-[72ch]"><p style="text-align: left;">Diseñar no es decorar. Es tomar decisiones que ayudan a alguien a lograr lo que vino a hacer, con el menor esfuerzo posible. Cuando esas decisiones están bien tomadas, casi nadie las nota; cuando fallan, todos las sufren.</p><p style="text-align: left;">En este artículo repasamos los principios que usamos en cada proyecto y cómo aplicarlos desde el primer boceto. Si quieres ver cómo trabajamos, visita <a href="/page" class="underline underline-offset-4">nuestra página de proceso</a>.</p><h2 style="text-align: left;"> Empezar por las personas </h2><p style="text-align: left;">Antes de abrir una herramienta de diseño conviene responder tres preguntas sencillas sobre quién va a usar el producto:</p><ul style="text-align: left;"><li>Qué intenta conseguir cuando llega.</li><li>Qué le impide conseguirlo hoy.</li><li>Cómo sabrá que lo consiguió.</li></ul><h3 style="text-align: left;"> Escuchar antes de proponer </h3><p style="text-align: left;">Una conversación de veinte minutos con un usuario real suele revelar más que una semana de suposiciones. Anota sus palabras exactas: son el mejor material para títulos, botones y mensajes.</p><p style="text-align: left;"><em>El buen diseño es tan poco diseño como sea posible.</em></p><img  src="https://media.stronglify.com/295/laboratorios-prototipo-1791566766.png" alt="Equipo revisando ideas alrededor de una mesa" /><p style="text-align: left;">Las mejores decisiones salen de revisar el trabajo en equipo.</p><h2 style="text-align: left;"> Simplificar cada paso </h2><p style="text-align: left;">Una vez claro el objetivo, el trabajo consiste en quitar todo lo que no ayuda a alcanzarlo:</p><ol style="text-align: left;"><li>Reducir las opciones visibles a las que realmente se usan.</li><li>Escribir textos cortos y concretos.</li><li>Probar con personas reales y ajustar.</li></ol><p style="text-align: left;">Repetir este ciclo con constancia es lo que convierte un producto correcto en uno que la gente disfruta usar.</p></div>
-</article>
+      <img src="https://media.stronglify.com/295/laboratorios-prototipo-1791566766.png" alt="Bitácora abierta junto a muestras en el banco de pruebas" width="1600" height="900" class="mt-12 w-full object-cover lg:col-span-12">
+
+      <div class="texto mt-12 lg:col-span-8 lg:col-start-4"><p>En el laboratorio, un resultado que nadie puede repetir vale poco. Por eso la bitácora pesa tanto como el equipo de medición.</p>
+<p>Aquí resumimos cómo documentamos cada prueba. Si quieres saber quiénes somos, visita <a href="./page">la página del laboratorio</a>.</p>
+
+<h2>Empezar por la pregunta</h2>
+<p>Antes de encender un equipo dejamos por escrito tres cosas:</p>
+<ul>
+  <li>Qué queremos saber.</li>
+  <li>Qué esperamos que pase.</li>
+  <li>Cómo sabremos si pasó.</li>
+</ul>
+
+<h3>Anotar también lo que falla</h3>
+<p>Los intentos fallidos son los datos que más se pierden. Una línea en la bitácora le ahorra semanas a quien venga después.</p>
+
+<blockquote>
+  <p>Si no quedó escrito, no pasó.</p>
+</blockquote>
+
+<figure>
+  <img src="https://placehold.co/1600x900/02182B/02182B" alt="Equipo revisando la bitácora alrededor de una mesa" width="1600" height="900" loading="lazy">
+  <figcaption>La bitácora compartida se revisa al cierre de cada jornada.</figcaption>
+</figure>
+
+<h2>Dejar el trabajo listo para otro</h2>
+<p>Al cerrar un ciclo de pruebas revisamos que:</p>
+<ul>
+  <li>Los datos tengan fecha, equipo y condiciones.</li>
+  <li>Cada decisión explique el porqué.</li>
+  <li>Otra persona pueda repetir la prueba.</li>
+</ul>
+<p>Así el experimento deja de ser de una persona y pasa a ser del laboratorio.</p></div>
+    </article>
+
+    <div class="mt-16 lg:ml-[25%]">
+      <a href="./blog" class="inline-flex items-center gap-2 text-[15px] font-semibold text-accent transition duration-200 hover:text-navy">Más notas <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
 </main>
-<footer class="mx-auto w-full max-w-[1600px] px-6 md:px-10 lg:px-16 flex flex-wrap items-center justify-between gap-5 pb-8 pt-8 font-sans">
-  <a href="/" class="text-[23px] font-semibold tracking-[-.04em]">Marca</a>
-  <p class="max-w-[34ch] text-sm leading-6">Laboratorio de investigación aplicada.</p>
-  <a href="https://stronglifythemes.github.io/crimson" class="text-sm transition-opacity duration-200 hover:opacity-75">Volver arriba</a>
-</footer><script>
-document.querySelectorAll('[data-menu-toggle]').forEach(function(b){var n=document.getElementById(b.getAttribute('aria-controls'));function close(){n.hidden=true;b.setAttribute('aria-expanded','false');b.textContent='Menú';}b.addEventListener('click',function(){var open=b.getAttribute('aria-expanded')==='true';n.hidden=open;b.setAttribute('aria-expanded',String(!open));b.textContent=open?'Menú':'Cerrar';});n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',close);});document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});});
+
+<footer class="bg-navy text-light">
+  <div class="mx-auto grid max-w-[1200px] gap-10 px-5 py-14 md:grid-cols-12 md:px-8">
+    <div class="md:col-span-6">
+      <a href="./" class="inline-block"><img src="https://placehold.co/160x40" alt="Crimson" width="160" height="40" class="h-10 w-auto"></a>
+      <p class="mt-5 max-w-[42ch] text-[15px] leading-relaxed text-mist">Investigación aplicada en materiales, sistemas y diseño. Publicamos en acceso abierto lo que aprendemos.</p>
+    </div>
+    <div class="md:col-span-4">
+      <p class="text-[15px] font-semibold">Correspondencia</p>
+      <p class="mt-2 text-[15px] text-mist">tucorreoaqui</p>
+    </div>
+    <div class="md:col-span-2 md:text-right">
+      <a href="#inicio" class="text-[15px] text-mist transition duration-200 hover:text-white">Volver arriba <span aria-hidden="true">↑</span></a>
+    </div>
+  </div>
+</footer>
+<script>document.querySelectorAll('[data-menu-toggle]').forEach(function(b){var n=document.getElementById(b.getAttribute('aria-controls'));function s(o){n.hidden=!o;b.setAttribute('aria-expanded',String(o))}b.addEventListener('click',function(){s(n.hidden)});n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){s(false)})});document.addEventListener('keydown',function(e){if(e.key==='Escape')s(false)})});</script><script>
+
 </script></body>
 </html>
